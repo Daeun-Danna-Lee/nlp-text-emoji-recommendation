@@ -20,3 +20,10 @@
 <br/>
 
 텍스트에서 감정과 키워드를 분석해 꼭 맞는 텍스트 이모지를 찾아주는 프로젝트!  
+
+<br/>
+<br/>
+<br/>
+
+## 현재 진행 상황
+![image](https://user-images.githubusercontent.com/71601985/145218656-83bf0ad0-7c40-4a3e-8be7-e8478f2d983d.png)
