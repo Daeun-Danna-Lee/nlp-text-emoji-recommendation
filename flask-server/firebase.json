@@ -9,7 +9,8 @@
     "rewrites": [{
       "source": "**",
       "run": {
-        "serviceId": "emoji"
+        "serviceId": "emoji",
+        "region": "asia-northeast3"
       }
     }]
   }
