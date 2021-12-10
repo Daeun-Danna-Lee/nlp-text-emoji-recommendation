@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import os
 
 import morph
+import emoji
 
 
 app = Flask(__name__)
@@ -17,20 +18,10 @@ def hello_world():
 def get_emoji():
     words = request.args.get('words')
     if words:
-        # response = jsonify([{"keyword": words,
-        #                      "emoji": [{"imageUrl": "", "rawText": "( ღ'ᴗ'ღ )"},
-        #                                {"imageUrl": "", "rawText": "(❁´▽`❁)"},
-        #                                {"imageUrl": "", "rawText": "๑•‿•๑"}]},
-        #                     {"keyword": words,
-        #                      "emoji": [{"imageUrl": "", "rawText": "( ღ'ᴗ'ღ )"},
-        #                                {"imageUrl": "", "rawText": "(❁´▽`❁)"},
-        #                                {"imageUrl": "", "rawText": "๑•‿•๑"}]},
-        #                     {"keyword": words,
-        #                      "emoji": [{"imageUrl": "", "rawText": "( ღ'ᴗ'ღ )"},
-        #                                {"imageUrl": "", "rawText": "(❁´▽`❁)"},
-        #                                {"imageUrl": "", "rawText": "๑•‿•๑"}]}])
-        response = (', ').join(morph.splitByMorphs(words))
-        # response.headers['Cache-Control'] = 'public, max-age=300, s-maxage=600'
+        morph_list = morph.splitByMorphs(words)
+        keywords, emojis = emoji.searchMatchingKeywords(morph_list)
+        response = jsonify(emoji.dataToJSON(keywords, emojis))
+        response.headers['Cache-Control'] = 'public, max-age=300, s-maxage=600'
         return response
 
     else:

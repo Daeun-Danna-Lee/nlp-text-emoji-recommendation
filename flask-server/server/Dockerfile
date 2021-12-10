@@ -7,7 +7,7 @@ RUN pip install konlpy
 RUN pip install tweepy==3.10.0
 
 # 2
-RUN pip3 install Flask gunicorn firebase_admin
+RUN pip3 install Flask gunicorn firebase_admin pandas
 
 # 3
 COPY src/ /app
