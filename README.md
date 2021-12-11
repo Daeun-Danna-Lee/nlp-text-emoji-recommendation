@@ -26,4 +26,7 @@
 <br/>
 
 ## 현재 진행 상황
+![image](https://user-images.githubusercontent.com/71601985/145686844-04754a21-d188-4d9e-a58b-19279460ac3e.png)
 ![image](https://user-images.githubusercontent.com/71601985/145218656-83bf0ad0-7c40-4a3e-8be7-e8478f2d983d.png)
+
+
