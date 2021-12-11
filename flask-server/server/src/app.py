@@ -28,5 +28,17 @@ def get_emoji():
         return '올바른 query string을 넣으세요.'
 
 
+@app.route('/morph')  # get morphs
+def get_morphs():
+    words = request.args.get('words')
+    if words:
+        morph_list = morph.splitByMorphs(words)
+        response = (', ').join(morph_list)
+        return response
+
+    else:
+        return '올바른 query string을 넣으세요.'
+
+
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
