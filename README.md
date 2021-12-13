@@ -26,7 +26,19 @@
 <br/>
 
 ## 현재 진행 상황
+### 감정 분류
 ![image](https://user-images.githubusercontent.com/71601985/145686844-04754a21-d188-4d9e-a58b-19279460ac3e.png)
+
+<br/>
+
+### 이모지 추천
 ![image](https://user-images.githubusercontent.com/71601985/145218656-83bf0ad0-7c40-4a3e-8be7-e8478f2d983d.png)
+
+<br/>
+
+### 서버 배포
+![image](https://user-images.githubusercontent.com/71601985/145687936-2f181722-673f-4fea-97aa-a4253f0f049f.png)
+![image](https://user-images.githubusercontent.com/71601985/145687941-d1c241aa-6abc-4741-8bd4-7adfa8791116.png)
+
 
 
