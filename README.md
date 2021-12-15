@@ -2,7 +2,6 @@
 
 ### *Still working on it*
 
-목표 개발 1차 마감일: 2021.12.15.
 <br/><br/>-
 <br/>
 
