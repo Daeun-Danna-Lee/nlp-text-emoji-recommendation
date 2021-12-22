@@ -37,6 +37,7 @@
 <br/>
 
 ### 서버 배포
+https://emoji-recommendation.web.app/  
 ![image](https://user-images.githubusercontent.com/71601985/145687936-2f181722-673f-4fea-97aa-a4253f0f049f.png)
 ![image](https://user-images.githubusercontent.com/71601985/145687941-d1c241aa-6abc-4741-8bd4-7adfa8791116.png)
 
